@@ -436,14 +436,15 @@
     border-radius: 10px;
 }
 
-.project-item:hover .project-content {
+.project-content {
     opacity: 1;
     transition: .5s;
 }
 
-.project-item:hover .project-img::before,
-.project-item:hover .project-img::after {
-    opacity: 0;
+ .project-img::before,
+.project-img::after {
+    opacity: 0
+    
 }
 
 /*** Project End ***/
